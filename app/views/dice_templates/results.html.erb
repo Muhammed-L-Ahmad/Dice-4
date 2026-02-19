@@ -1,0 +1,16 @@
+<h1><%= @dice %>d<%= @sides %></h1>
+<div class="container">
+  <ol>
+    <% @rolls.each do |die| %>
+    <li>
+
+      Result: <strong><%= die %></strong>
+
+    </li>
+    <% end %>
+  </ol>
+
+  <a href="/process_roll?dice=<%= @dice %>&sides=<%= @sides %>">
+    Roll <%= @dice%>d<%= @sides %> again
+  </a>
+</div>
