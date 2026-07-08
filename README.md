@@ -43,7 +43,7 @@ Add screenshots here after uploading them to the repository.
 
 Example:
 
-![Dice Roll home screen](app/assets/images/dice-roll-home.png)
+![Dice Roll home screen](app/assets/images/dice%20roll%204%20homepage.png)
 
 ## Future Improvements
 
